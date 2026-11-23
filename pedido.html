@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es-PA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tu bolsa — Aera Selfcare</title>
+  <meta name="theme-color" content="#fbefef">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/img/logo-plum.png">
+  <link rel="stylesheet" href="assets/css/base.css?v=7">
+  <link rel="stylesheet" href="assets/css/store.css?v=7">
+  <script src="assets/js/catalog.js?v=7" defer></script>
+  <script src="assets/js/aera.js?v=7" defer></script>
+  <script src="assets/js/store.js?v=7" defer></script>
+</head>
+<body data-page="pedido">
+  <p class="demo-note">Boceto para revisión<span class="long"> · al probar un pedido se abre WhatsApp, pero nada se envía hasta que tú presiones enviar</span></p>
+  <header id="site-header"></header>
+  <main>
+    <div class="wrap">
+      <div class="order-head">
+        <h1 class="h-sign">Tu bolsa</h1>
+        <p class="lede">Revisa tu pedido. Al enviarlo se convierte en una cotización con número de referencia y llega directo al WhatsApp de Aera.</p>
+      </div>
+      <div class="order" id="orderLayout">
+        <div class="receipt" aria-label="Tu cotización">
+          <div class="receipt-head">
+            <img src="assets/img/logo-plum.png" alt="Aera Selfcare" width="94" height="44">
+            <div class="kind">Cotización</div>
+            <div class="meta">Se numera al enviar · <span id="itemCount" class="num">0 productos</span></div>
+          </div>
+          <ul class="receipt-lines" id="bagLines"></ul>
+          <div class="receipt-sum">
+            <div><span>Subtotal</span><span id="subtotal" class="num">$0.00</span></div>
+            <div class="muted"><span>Envío</span><span>por confirmar</span></div>
+          </div>
+          <div class="receipt-foot">Precios en USD. Aera confirma stock, envío y pago por WhatsApp.</div>
+        </div>
+
+        <form class="form-panel order-form" id="orderForm" novalidate>
+          <div>
+            <h2>Tus datos</h2>
+            <p>Solo lo necesario para preparar tu pedido. Los guardamos en este teléfono para la próxima vez.</p>
+          </div>
+          <div class="two">
+            <div class="field" data-field="name">
+              <label for="f-name">Nombre</label>
+              <input class="input" id="f-name" name="name" autocomplete="name" placeholder="Ej. María José">
+              <span class="error">Escribe tu nombre para saber a quién preparar el pedido.</span>
+            </div>
+            <div class="field" data-field="phone">
+              <label for="f-phone">Tu WhatsApp</label>
+              <input class="input" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="6xxx-xxxx">
+              <span class="error">Revisa el número: deben ser 8 dígitos, por ejemplo 6123-4567.</span>
+            </div>
+          </div>
+          <fieldset>
+            <legend class="legend">¿Cómo lo quieres recibir?</legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="delivery" value="envio" checked><span><strong>Envío a domicilio</strong><span>A todo el país · costo por confirmar</span></span></label>
+              <label class="choice"><input type="radio" name="delivery" value="retiro"><span><strong>Retiro en tienda</strong><span>Yiso Nails &amp; Cosmetics, Vía Brasil</span></span></label>
+            </div>
+          </fieldset>
+          <div class="two" id="addressFields">
+            <div class="field" data-field="zone">
+              <label for="f-zone">Provincia</label>
+              <select class="select" id="f-zone" name="zone">
+                <option value="">Elige una</option>
+                <option>Panamá</option><option>Panamá Oeste</option><option>Colón</option><option>Coclé</option><option>Chiriquí</option>
+                <option>Herrera</option><option>Los Santos</option><option>Veraguas</option><option>Bocas del Toro</option><option>Darién</option><option>Comarca</option>
+              </select>
+              <span class="error">Elige tu provincia para calcular el envío.</span>
+            </div>
+            <div class="field" data-field="address">
+              <label for="f-address">Corregimiento o referencia</label>
+              <input class="input" id="f-address" name="address" autocomplete="street-address" placeholder="Ej. San Francisco, calle 74">
+            </div>
+          </div>
+          <fieldset>
+            <legend class="legend">¿Cómo prefieres pagar?</legend>
+            <div class="choices three">
+              <label class="choice"><input type="radio" name="payment" value="yappy" checked><span><strong>Yappy</strong></span></label>
+              <label class="choice"><input type="radio" name="payment" value="transferencia"><span><strong>Transferencia</strong></span></label>
+              <label class="choice"><input type="radio" name="payment" value="efectivo"><span><strong>Efectivo</strong></span></label>
+            </div>
+            <span class="hint">No pagas ahora. Aera te confirma el monto final y cómo pagar por chat.</span>
+          </fieldset>
+          <div class="field">
+            <label for="f-note">Nota <span class="opt">(opcional)</span></label>
+            <textarea class="textarea" id="f-note" name="note" placeholder="Tipo de cabello, horario de entrega, si es un regalo…"></textarea>
+          </div>
+          <div class="send-row">
+            <button class="btn btn-primary" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.8 9.8 0 0 0-8.4 14.9L2.3 21.8l4.8-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.8c-1.6 0-3-.4-4.3-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Z"/></svg>Enviar cotización por WhatsApp</button>
+            <p>Se abrirá WhatsApp con tu cotización lista. Solo presiona enviar.</p>
+          </div>
+        </form>
+      </div>
+      <div class="mobile-total no-print">
+        <span>Total <strong id="mobileTotal">$0.00</strong></span>
+        <button class="btn btn-primary" type="button" id="mobileSend">Enviar por WhatsApp</button>
+      </div>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

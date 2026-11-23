@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es-PA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cotización enviada — Aera Selfcare</title>
+  <meta name="theme-color" content="#fbefef">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/img/logo-plum.png">
+  <link rel="stylesheet" href="assets/css/base.css?v=7">
+  <link rel="stylesheet" href="assets/css/store.css?v=7">
+  <script src="assets/js/catalog.js?v=7" defer></script>
+  <script src="assets/js/aera.js?v=7" defer></script>
+  <script src="assets/js/store.js?v=7" defer></script>
+</head>
+<body data-page="confirmacion">
+  <p class="demo-note">Boceto para revisión<span class="long"> · al probar un pedido se abre WhatsApp, pero nada se envía hasta que tú presiones enviar</span></p>
+  <header id="site-header"></header>
+  <main>
+    <div class="wrap">
+      <div class="confirm" id="confirm">
+        <div class="receipt" aria-label="Tu cotización">
+          <div class="stamp" aria-hidden="true"><span>Enviada<small>por WhatsApp</small></span></div>
+          <div class="receipt-head">
+            <img src="assets/img/logo-plum.png" alt="Aera Selfcare" width="94" height="44">
+            <div class="kind">Cotización</div>
+            <div class="meta num"><span id="receiptRef"></span> · <span id="receiptDate"></span></div>
+          </div>
+          <ul class="receipt-lines" id="receiptLines"></ul>
+          <div class="receipt-sum">
+            <div class="muted"><span>Envío</span><span>por confirmar</span></div>
+            <div class="total"><span>Total</span><span id="receiptTotal" class="num"></span></div>
+          </div>
+          <dl id="receiptCustomer"></dl>
+          <div class="receipt-foot">Precios en USD · sujeta a confirmación de stock<span class="hand">Be gentle with yourself</span></div>
+        </div>
+        <div class="confirm-copy">
+          <h1 class="h-sign" id="confirmTitle">¡Listo! Tu cotización va en camino.</h1>
+          <p class="lede">Si WhatsApp no se abrió o no presionaste enviar, ábrelo de nuevo aquí. Tu cotización queda guardada.</p>
+          <ol class="next">
+            <li class="done"><b>Cotización lista</b><span>Con su número de referencia, para que Aera la encuentre rápido.</span></li>
+            <li><b>Aera te confirma</b><span>Revisa el stock y te dice el costo de envío por chat.</span></li>
+            <li><b>Coordinan el pago</b><span>Yappy, transferencia o efectivo, como acuerden.</span></li>
+            <li><b>Recibes tu pedido</b><span>Envío a todo el país o retiro en Vía Brasil.</span></li>
+          </ol>
+          <div class="confirm-actions">
+            <a class="btn btn-primary" id="reopenWA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.8 9.8 0 0 0-8.4 14.9L2.3 21.8l4.8-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.8c-1.6 0-3-.4-4.3-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Z"/></svg>Abrir WhatsApp de nuevo</a>
+            <button class="btn btn-line" type="button" id="printBtn">Guardar o imprimir</button>
+            <a class="btn btn-quiet" href="tienda.html">Seguir comprando</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>
