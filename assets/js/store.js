@@ -47,6 +47,10 @@
       </section>`;
   }
   const visible = () => A.catalog().filter(p => !p.hidden);
+  // Source photos that show an ad backdrop or lifestyle scene instead of the product.
+  // Kept in their aisles, left off the home shelves until the client sends clean photos.
+  const PHOTO_TODO = ["dr-melaxin-", "momori-peach-", "serum-de-crecimiento-capilar"];
+  const cleanPhoto = p => !PHOTO_TODO.some(k => p.slug.startsWith(k));
 
   /* ---------------- HOME ---------------- */
   function home() {
@@ -56,8 +60,8 @@
       title: "Best-sellers", id: "best", gentle: true, link: { href: "tienda.html", label: "Ver toda la tienda" }, items: featured, eager: true,
       talkers: { 0: { talker: "¿Frizz? Empieza aquí" }, 2: { talker: "Piel suavecita", peach: true } },
     });
-    const hair = cat.filter(p => ["brillo", "reparacion", "tenido"].includes(p.aisle) && !p.featured && p.available).slice(0, 5);
-    const body = cat.filter(p => ["cuerpo", "sol"].includes(p.aisle) && !p.featured).slice(0, 5);
+    const hair = cat.filter(p => ["brillo", "reparacion", "tenido"].includes(p.aisle) && !p.featured && p.available && cleanPhoto(p)).slice(0, 5);
+    const body = cat.filter(p => ["cuerpo", "sol"].includes(p.aisle) && !p.featured && cleanPhoto(p)).slice(0, 5);
     $("#haircare").innerHTML = shelf({ title: "Haircare", id: "hair", cls: "five", link: { href: "tienda.html#reparacion", label: "Pasillo de cabello" }, items: hair,
       talkers: { 1: { talker: "Para pelo maltratado", peach: true } } });
     $("#bodycare").innerHTML = shelf({ title: "Bodycare", id: "body", cls: "five", link: { href: "tienda.html#cuerpo", label: "Pasillo de cuerpo" }, items: body,
