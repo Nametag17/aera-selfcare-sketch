@@ -7,7 +7,7 @@ window.AERA = {
   "instagram": "https://instagram.com/aeraselfcare",
   "currency": "USD",
   "country": "Panamá",
-  "scrapedAt": "2026-11-23T23:32:32.230Z",
+  "scrapedAt": "2026-11-24T00:07:53.645Z",
   "total": 50,
   "treintaCategories": [
    "Aceite corporal",
@@ -53,7 +53,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Es un aceite capilar sin enjuague pensado principalmente para cabello con frizz, resequedad, encrespamiento, ondas o rizos suaves. Ayuda a dejar el pelo más suave, brillante y manejable, especialmente de medios a puntas. Su fórmula incluye siliconas como cyclopentasiloxane, dimethiconol y dimethicone, además de aceite de salvado de arroz, miel, propóleo, keratina, ceramida, aceite de argán y fragancia. 12\nTambién puede servir para sellar puntas, dar efecto más “glossy” y disminuir la apariencia",
-   "localImage": "assets/img/products/honey-melty-moist-repair-hair-oil.jpg",
+   "localImage": "assets/img/products/honey-melty-moist-repair-hair-oil.webp",
    "featured": true
   },
   {
@@ -65,7 +65,7 @@ window.AERA = {
    "stock": 8,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/aceite-suavizante-e-hidratante-para-el-cabello-sin-enjuague.jpg",
+   "localImage": "assets/img/products/aceite-suavizante-e-hidratante-para-el-cabello-sin-enjuague.webp",
    "featured": false
   },
   {
@@ -77,7 +77,7 @@ window.AERA = {
    "stock": 5,
    "available": true,
    "description": "Aceite capilar reparador \nEl aceite capilar GROWUS Damage Therapy es un aceite nutritivo diseñado para suavizar el encrespamiento, mejorar el brillo y realzar el aspecto del cabello dañado. Esta fórmula ligera pero acondicionadora ayuda a sellar la hidratación al tiempo que deja el cabello sedoso, brillante y más fácil de peinar.\n\nPrincipales ventajas Tratamiento alisado antiencrespamiento Ayuda a controlar los mechones rebeldes y a alisar el cabello áspero e indisciplinado para un acabado impec",
-   "localImage": "assets/img/products/aceite-capilar-reparador.jpg",
+   "localImage": "assets/img/products/aceite-capilar-reparador.webp",
    "featured": false
   },
   {
@@ -89,7 +89,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "El aceite corporal de whisky de higo es ampliamente elogiado por su aroma lujoso, cálido y sofisticado y su textura ligera y de rápida absorción. Mezcla aceites nutritivos de origen vegetal (como jojoba, argán y coco) para hidratar profundamente la piel sin dejar un residuo graso o pegajoso.",
-   "localImage": "assets/img/products/aceite-corporal-de-whisky-de-higo.jpg",
+   "localImage": "assets/img/products/aceite-corporal-de-whisky-de-higo.webp",
    "featured": false
   },
   {
@@ -101,7 +101,7 @@ window.AERA = {
    "stock": 8,
    "available": true,
    "description": "QUÉ ES AMLA: La fruta Amla es una fruta seca conocida como grosella india. Se deriva del árbol del mismo nombre, que es nativo de la India y Nepal. Las bayas Amla también son una excelente fuente de vitamina C. Vitamina E, que puede ayudar a mantener un cuero cabelludo sano y un cabello grueso y fuerte\n\nPOTENCIA: Nuestro aceite capilar Dabur Amla tiene aceite natural de Amla como ingrediente principal. Nutre el cuero cabelludo y fortalece los mechones de cabello, desde la raíz hasta la punta, pa",
-   "localImage": "assets/img/products/aceite-de-amla.jpg",
+   "localImage": "assets/img/products/aceite-de-amla.webp",
    "featured": false
   },
   {
@@ -113,7 +113,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Beneficios:\n• Un tratamiento capilar vegano con una nota musgosa y floral que cuida el cabello seco y dañado.\n• Se convierte en una textura cremosa de alta concentración para crear una capa protectora y nutritiva en tu cabello cuando se mezcla con agua.\n• Formulado con 8 aceites naturales, incluyendo aceite de fruta de rosa hipo, para llenar tu cabello de nutrientes.\n• Cuenta con complejo de proteína y complejo de aminoácidos para ofrecer una hidratación profunda tanto al cuero cabelludo como al",
-   "localImage": "assets/img/products/anillo-rosy-night-tratamiento-capilar-rosa.jpg",
+   "localImage": "assets/img/products/anillo-rosy-night-tratamiento-capilar-rosa.webp",
    "featured": true
   },
   {
@@ -125,7 +125,7 @@ window.AERA = {
    "stock": 1,
    "available": true,
    "description": "Beneficios:\n\n• Una crema de masaje con gua sha incorporado para un ritual de spa diario fácil desde la mandíbula hasta el cuello y el escote, ayudando a levantar la piel, mejorar la elasticidad y suavizar las líneas finas.\n\n• Enriquecido con retinol y colágeno para aumentar la luminosidad y reponer el volumen y la elasticidad internos de la piel.\n\n• Infundido con péptido para mejorar la firmeza de la piel, ayudando a desvanecer las líneas finas y fortalecer la barrera de humedad de la piel.\n\n• C",
-   "localImage": "assets/img/products/anua-collagen-retinol-refining-gua-sha-cream-crema-para-el-c.jpg",
+   "localImage": "assets/img/products/anua-collagen-retinol-refining-gua-sha-cream-crema-para-el-c.webp",
    "featured": false
   },
   {
@@ -137,7 +137,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/aplb-protector-solar-corporal-spf50.jpg",
+   "localImage": "assets/img/products/aplb-protector-solar-corporal-spf50.webp",
    "featured": false
   },
   {
@@ -149,7 +149,7 @@ window.AERA = {
    "stock": 5,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/aplicador-de-aceite-y-masajeador-de-cuero-cabelludo-aceite-d.jpg",
+   "localImage": "assets/img/products/aplicador-de-aceite-y-masajeador-de-cuero-cabelludo-aceite-d.webp",
    "featured": false
   },
   {
@@ -161,7 +161,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "Beneficios:\n\n• Este suero para el cuero cabelludo proporciona nutrientes esenciales a las raíces, promoviendo un ambiente firme y saludable para el cuero cabelludo.\n\n• Formulado con Redensyl, un ingrediente innovador clínicamente reconocido para atacar el adelgazamiento del cabello.\n\n• Infundido con PDRN de romero para revitalizar el tejido del cuero cabelludo y fortalecer la barrera cutánea.\n\n• Cuenta con un aplicador de cepillo especializado de 38 puntas que estimula la microcirculación y gara",
-   "localImage": "assets/img/products/aromatica-rosemary-serum-para-el-cuero-cabelludo-de-pdrn.jpg",
+   "localImage": "assets/img/products/aromatica-rosemary-serum-para-el-cuero-cabelludo-de-pdrn.webp",
    "featured": false
   },
   {
@@ -173,7 +173,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Cepillo ovalado de madera marron con puas finas y anchas",
-   "localImage": "assets/img/products/cepillo-de-madera-doble-funcion.jpg",
+   "localImage": "assets/img/products/cepillo-de-madera-doble-funcion.webp",
    "featured": false
   },
   {
@@ -185,7 +185,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Está diseñada para nutrir e hidratar el cabello intensamente, especialmente cuando ha sufrido daño por procesos químicos o calor",
-   "localImage": "assets/img/products/damaged-therapy-repair-clinic-treatment.jpg",
+   "localImage": "assets/img/products/damaged-therapy-repair-clinic-treatment.webp",
    "featured": false
   },
   {
@@ -197,7 +197,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "El exfoliante suave elimina las células muertas de la piel.\n\n• La textura suave del exfoliante elimina suavemente las células muertas de la piel mientras proporciona un cuidado hidratante.",
-   "localImage": "assets/img/products/dove-japan-esmalte-corporal-exfoliante.jpg",
+   "localImage": "assets/img/products/dove-japan-esmalte-corporal-exfoliante.webp",
    "featured": true
   },
   {
@@ -209,7 +209,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Beneficios:\n• Un spray exfoliante corporal objetivo para la piel con baches.\n• Enriquecido con AHA, PHA y cúrcuma, pela suavemente las células muertas de la piel y refina la textura de la piel.\n• El ácido kójico, el retinol, el glutatión, la niacinamida y la vitamina B, el complejo C, E iluminan el tono de la piel y restauran la luminosidad de la piel.\n• Se ha comprobado que es un producto no irritante.\nCómo usar:\n1. Rocíe una cantidad adecuada en el área de la piel seca.\n2. Frote para eliminar",
-   "localImage": "assets/img/products/dr-melaxin-exfoliante-de-acido-kojico-peel-shot-spray-de-cur.jpg",
+   "localImage": "assets/img/products/dr-melaxin-exfoliante-de-acido-kojico-peel-shot-spray-de-cur.webp",
    "featured": false
   },
   {
@@ -221,7 +221,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Beneficios:\n• Esta esencia capilar vegana ayuda a prolongar y mantener el color del cabello teñido mientras deja un agradable aroma floral.\n• El sistema de fijación de color ayuda a evitar que el color teñido se desvanezca, manteniendo el color vivo todo el tiempo.\n• Formulado con aminoácidos y proteínas de origen vegetal\nComplejo para hidratar y nutrir el cabello dañado por la teñido.\n• Forma una capa nutritiva y radiante con polvo de diamante y aceite natural para un cabello sano y de vidrio q",
-   "localImage": "assets/img/products/esencia-para-pelo-tenido.jpg",
+   "localImage": "assets/img/products/esencia-para-pelo-tenido.webp",
    "featured": false
   },
   {
@@ -233,7 +233,7 @@ window.AERA = {
    "stock": 5,
    "available": true,
    "description": "El exfoliante suave elimina las células muertas de la piel.\n• La textura suave del exfoliante elimina suavemente las células muertas de la piel mientras proporciona un cuidado hidratante.\n\nCómo usar:\n• Antes de lavarse el cuerpo, tome una cantidad adecuada del exfoliante y aplíquelo en todo el cuerpo.\n• Masajearlo en tu piel.\n• Enjuague suavemente con agua tibia.",
-   "localImage": "assets/img/products/exfoliante-corporal-edicion-japon.jpg",
+   "localImage": "assets/img/products/exfoliante-corporal-edicion-japon.webp",
    "featured": false
   },
   {
@@ -245,7 +245,7 @@ window.AERA = {
    "stock": 6,
    "available": true,
    "description": "Beneficios:\n• Un exfoliante para el cuero cabelludo que elimina el exceso de células viejas de la piel para crear un entorno saludable para el cuero cabelludo para el crecimiento del cabello.\n\n• Contiene 353.840 ppm de sal marina y 150.000 ppm de agua de mar que son ricas en minerales y eliminan el exceso de sebo e impurezas en el cuero cabelludo.\n\n• Proporciona cuidado contra la pérdida de cabello con ácido salicílico, niacinamida y dexpantenol.\n\n• Fórmula ligeramente ácida con pH 4-6 que minim",
-   "localImage": "assets/img/products/exfoliante-para-el-cuero-cabelludo-graso.jpg",
+   "localImage": "assets/img/products/exfoliante-para-el-cuero-cabelludo-graso.webp",
    "featured": false
   },
   {
@@ -257,7 +257,7 @@ window.AERA = {
    "stock": 9,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/fijador-de-maquillaje-a-prueba-de-agua.jpg",
+   "localImage": "assets/img/products/fijador-de-maquillaje-a-prueba-de-agua.webp",
    "featured": false
   },
   {
@@ -269,7 +269,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "TRÍO DE BRILLO DE MIEL PARA FUERZA Y BRILLO: Miel\n\nChampú brillante (75 ml), mascarilla para el cabello (30 ml) y acondicionador (50 ml). Una rutina completa de tamaño de viaje diseñada para limpiar, nutrir y pulir un cabello más fuerte y brillante.\n\n• LIMPIAR E HIDRATAR: Cuando se usan juntos, el champú y acondicionador Honey Gloss Ceramide Therapy eliminan hasta un 96 % de exceso de aceite y proporcionan hasta 3 días de hidratación, control de frizz y brillo brillante mientras equilibran el mi",
-   "localImage": "assets/img/products/gisou-honey-gloss-hair-therapy-trio-mini-champu-mini-mascari.jpg",
+   "localImage": "assets/img/products/gisou-honey-gloss-hair-therapy-trio-mini-champu-mini-mascari.webp",
    "featured": true
   },
   {
@@ -281,7 +281,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "MOTON Hair & Body Mist es una bruma de fragancia que se puede usar tanto para el cabello como para la piel, y es una fragancia que ajusta el estado de ánimo. La niebla ligera es suavemente familiar para la piel y el cabello, y el aroma se extiende casualmente cada vez que te mueves.\nDupe muy similar al Chanel chance eau esplendide \n¡El spray para el cabello y el cuerpo más vendido de MOTON ya está disponible en un tamaño mini de edición limitada!\n\n• Esta lujosa fórmula está enriquecida con ingre",
-   "localImage": "assets/img/products/hair-body-mist.jpg",
+   "localImage": "assets/img/products/hair-body-mist.webp",
    "featured": false
   },
   {
@@ -293,7 +293,7 @@ window.AERA = {
    "stock": 0,
    "available": false,
    "description": "Sirve para:\nDesenredar y suavizar el cabello, especialmente si se te enreda fácil. \nDar un acabado silky / sedoso, brillante y manejable. \nAyudar con frizz ligero a moderado y puntas secas. \nAportar sensación de hidratación y suavidad con ingredientes como miel, aceite de argán, keratina hidrolizada, seda hidrolizada, ácido hialurónico y manteca de karité. \nDejar aroma dulce floral tipo Yaezakura honey, como miel con sakura.",
-   "localImage": "assets/img/products/honey-sakura-pixie-moist-silky-hair-oil.jpg",
+   "localImage": "assets/img/products/honey-sakura-pixie-moist-silky-hair-oil.webp",
    "featured": true
   },
   {
@@ -305,7 +305,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/loreal-infalible-3-9oz.jpg",
+   "localImage": "assets/img/products/loreal-infalible-3-9oz.webp",
    "featured": false
   },
   {
@@ -317,7 +317,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/loreal-infalible-fijador-de-maquillaje-a-prueba-de-agua.jpg",
+   "localImage": "assets/img/products/loreal-infalible-fijador-de-maquillaje-a-prueba-de-agua.webp",
    "featured": false
   },
   {
@@ -329,7 +329,7 @@ window.AERA = {
    "stock": 0,
    "available": false,
    "description": "Beneficios:\n• Esta loción corporal hidrata la piel con una mezcla de ingredientes de origen natural.\n\n• Textura ligera y no pegajosa que deja la piel fresca.\n\n• Da un aroma fresco y limpio.\n\n• Formulado con proteína de leche para nutrir la piel.\n\n• Contiene extracto de jalea real para ayudar a mejorar la condición general de la piel y apoyar la recuperación.",
-   "localImage": "assets/img/products/locion-corporal-hidratante-de-leche.jpg",
+   "localImage": "assets/img/products/locion-corporal-hidratante-de-leche.webp",
    "featured": false
   },
   {
@@ -341,7 +341,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "Este aceite de ducha es suave para la piel con ingredientes limpiadores de origen natural y lujosamente formulado con ingredientes de belleza.\n\n• Limpia suavemente y deja la piel suave y absorbida.\n\n• Disfruta de la inolvidable y querida fragancia, una mezcla de frescura afrutada y notas florales.\n\nCómo usar:\n\n• Aplique una cantidad adecuada en una red de espuma corporal bien húmeda, haga espuma bien y lávese suavemente el cuerpo.\n\n• Luego, enjuague bien con agua tibia.",
-   "localImage": "assets/img/products/luxury-shower-oil-flower-garden.jpg",
+   "localImage": "assets/img/products/luxury-shower-oil-flower-garden.webp",
    "featured": true
   },
   {
@@ -353,7 +353,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "• Reforzado con 4 tecnologías e ingredientes únicos de TSUBAKI para reparar instantáneamente el cabello gravemente dañado.\n\n• Experimente una mejora instantáneamente",
-   "localImage": "assets/img/products/mascara-de-reparacion-tsubaki-premium-rosa.jpg",
+   "localImage": "assets/img/products/mascara-de-reparacion-tsubaki-premium-rosa.webp",
    "featured": true
   },
   {
@@ -365,7 +365,7 @@ window.AERA = {
    "stock": 5,
    "available": true,
    "description": "tu cabello se siente seco, con frizz o maltratado por el calor, esta mascarilla puede ser tu mejor aliada. La TSUBAKI Premium EX Repair Mask ayuda a que el cabello se sienta más suave, brillante y fácil de manejar desde el primer uso.",
-   "localImage": "assets/img/products/mascarilla-capilar-de-reparacion-premium-ex.jpg",
+   "localImage": "assets/img/products/mascarilla-capilar-de-reparacion-premium-ex.webp",
    "featured": false
   },
   {
@@ -377,7 +377,7 @@ window.AERA = {
    "stock": 5,
    "available": true,
    "description": "Beneficios de la mascarilla capilar Shiseido Fino Premium Touch:\n\n• Una mascarilla, muchas soluciones: Infundida con seis ingredientes de grado de suero, la mascarilla capilar Shiseido Fino se sumerge profundamente en cada hebra para abordar múltiples preocupaciones del cabello a la vez.\n\n• Cabello más fuerte y menos quebradizo: Cuenta con Royal Jelly EX que proporciona proteínas, vitaminas, minerales y ácidos grasos para fortalecer el cabello débil y prevenir la rotura y las puntas abiertas.\n\n•",
-   "localImage": "assets/img/products/mascarilla-japonesa-para-el-cabello.jpg",
+   "localImage": "assets/img/products/mascarilla-japonesa-para-el-cabello.webp",
    "featured": false
   },
   {
@@ -389,7 +389,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "",
-   "localImage": "assets/img/products/melty-most-repair-shampoo.jpg",
+   "localImage": "assets/img/products/melty-most-repair-shampoo.webp",
    "featured": false
   },
   {
@@ -401,7 +401,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Protección contra el calor: La niebla crea una barrera protectora en las hebras de cabello para protegerlas de los daños causados por herramientas de peinado con calor como planchas y secadores.\n\nAyuda para el peinado: Ayuda a lograr rizos suaves o estilos lisos y elegantes.\n\nControl del encrespamiento: La fórmula está diseñada para dejar incluso el cabello seco y encrespado hidratado, manejable y sin encrespamiento, ayudando también a bloquear el encrespamiento de la humedad.\n\nIngredientes nutr",
-   "localImage": "assets/img/products/momori-peach-glossy-iron-hair-mist.jpg",
+   "localImage": "assets/img/products/momori-peach-glossy-iron-hair-mist.webp",
    "featured": false
   },
   {
@@ -413,7 +413,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Esta bruma vegana para el cabello ofrece ricos nutrientes y nutrición, al tiempo que deja un aroma floral almizclado similar a un perfume.\n\n• Nutre el cabello seco y dañado con 7 aceites vegetales, incluido el aceite de fruta de rosa mosqueta y el complejo de proteínas.\n\n• Libre de alcohol y silicona.\n\n• Prueba de irritación de la piel completada.\n\nCómo usar:\n\n• Rocíe la niebla sobre el cabello seco o húmedo y frote suavemente el cabello para que se absorba.",
-   "localImage": "assets/img/products/perfume-para-el-pelo-con.jpg",
+   "localImage": "assets/img/products/perfume-para-el-pelo-con.webp",
    "featured": false
   },
   {
@@ -425,7 +425,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Beneficios del potenciador de raíces de romero AROMATICA:\n\n• Apoya un cuero cabelludo más saludable: Este tónico para el cuero cabelludo sin enjuague proporciona un cuidado específico directamente a las raíces con aceite esencial de romero, probióticos, cafeína y ácido salicílico. Ayuda a calmar y equilibrar el cuero cabelludo mientras apoya un entorno óptimo para el crecimiento del cabello.\n\n• Nutre el cabello desde las raíces: Enriquecido con un complejo de plantas negras que incluye arroz neg",
-   "localImage": "assets/img/products/potenciador-de-la-raiz-de-romero.jpg",
+   "localImage": "assets/img/products/potenciador-de-la-raiz-de-romero.webp",
    "featured": false
   },
   {
@@ -437,7 +437,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "Reparación intensiva: está formulada para devolver suavidad, brillo y manejabilidad a cabellos debilitados por calor, coloración, decoloración o exposición ambiental.\n•\tHidratación y sellado: mejora la textura y reduce el frizz al aportar humectación y alisar la cutícula, dejando el pelo más pulido",
-   "localImage": "assets/img/products/premium-touch-shampoo-formulated-with-serum.jpg",
+   "localImage": "assets/img/products/premium-touch-shampoo-formulated-with-serum.webp",
    "featured": false
   },
   {
@@ -449,7 +449,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Beneficios:\n\n• Un protector solar ofrece protección solar SPF50+ PA++++, ayuda a proteger su piel de la radiación fuerte y la irritación externa.\n\n• Enriquecido con niacinamida de glutatión y Centella asiática para aumentar la elasticidad de la piel mientras calma la piel irritada.\n\n• Mantiene su piel hidratada con un efecto hidratante prolongado.\n\n• Se adhiere a la piel sin problemas sin apillarse y dejar un color blanco.\n\n• Cuenta con un acabado hidratante pero refrescante sin molestias.\n\n• Pa",
-   "localImage": "assets/img/products/protector-solar-de-glutation-y-niacinamida.jpg",
+   "localImage": "assets/img/products/protector-solar-de-glutation-y-niacinamida.webp",
    "featured": false
   },
   {
@@ -461,7 +461,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Hidrata tu piel con un polvo que contenga ingredientes hidratantes!\n\nRecomendado para:\nRetocado de maquillaje\nFlequillo pegajoso\n\n\nSe puede usar incluso en pieles sensibles\nSe puede eliminar con un limpiador facial",
-   "localImage": "assets/img/products/protector-solar-en-polvo-potente-corte-uv-spf50-pa.jpg",
+   "localImage": "assets/img/products/protector-solar-en-polvo-potente-corte-uv-spf50-pa.webp",
    "featured": false
   },
   {
@@ -473,7 +473,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Qué es: Una niebla de secado rápido y sin aerosol con olor a piña que ofrece protección solar de amplio espectro con un acabado brillante y un jugoso aroma a guayaba. \nQué hace: Esta niebla ligera y sin aerosol ofrece protección solar SPF 50 para el cuerpo y se absorbe sin problemas, nunca grasa. Está infundido con ácido hialurónico y vitaminas C y E para ayudar a suavizar la piel. La fórmula deja un lujoso acabado dorado con minerales nacarados naturales para una piel brillante y vidriosa.",
-   "localImage": "assets/img/products/protector-solar-en-spray-golden-sunglaze-spf-50.jpg",
+   "localImage": "assets/img/products/protector-solar-en-spray-golden-sunglaze-spf-50.webp",
    "featured": true
   },
   {
@@ -485,7 +485,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Un spray de tratamiento coreano que transforma el cabello dañado en una sola aplicación. Formulado con 7 tipos de colágeno marino, keratina hidrolizada y ceramidas, reconstruye la cutícula desde adentro mientras crea una barrera protectora contra el calor de planchas y secadoras de hasta 230°C.\nSu tecnología de fermentos prebióticos — Bifida Ferment Lysate y Saccharomyces Rice Ferment — equilibra el microbioma del cuero cabelludo, reduciendo la sensibilidad y el frizz causado por la humedad ambi",
-   "localImage": "assets/img/products/protector-termico-growus.jpg",
+   "localImage": "assets/img/products/protector-termico-growus.webp",
    "featured": false
   },
   {
@@ -497,7 +497,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "es un suero anticaída y de crecimiento capilar que destaca por su aplicador con cepillo integrado. Diseñada para revitalizar el cabello debilitado, utiliza nanotecnología para llevar nutrientes directamente a las raíces.\n\n✅ Ayuda a fortalecer la apariencia del cabello desde la raíz.\n✅ Refresca y revitaliza el cuero cabelludo.\n✅ El masajeador integrado ayuda a distribuir mejor el producto.\n✅ Puede ayudar a que el cabello luzca más fuerte y con mejor densidad visual con uso constante.",
-   "localImage": "assets/img/products/serum-de-crecimiento-capilar-con-aplicador-tipo-cepillo.jpg",
+   "localImage": "assets/img/products/serum-de-crecimiento-capilar-con-aplicador-tipo-cepillo.webp",
    "featured": false
   },
   {
@@ -509,7 +509,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "Este shampoo con pH equilibrado está repleto de siete tipos de colágeno y cinco tipos de aminoácidos para fortalecer y reparar el cabello dañado.\n\nBeneficios:\n\n• Un champú que limpia mientras proporciona un cuidado de reparación de proteínas enfocado al cabello dañado con alta porosidad.\n\n• Contiene 7 tipos de colágenos y 5 tipos de proteínas para hidratar profundamente el cabello y restaurar un brillo saludable.\n\n• Terapia de doble recubrimiento que consiste en ingredientes de PPT de alta moléc",
-   "localImage": "assets/img/products/shampoo-con-ph-equilibrado-de-terapia.jpg",
+   "localImage": "assets/img/products/shampoo-con-ph-equilibrado-de-terapia.webp",
    "featured": false
   },
   {
@@ -521,7 +521,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "Es un shampoo exfoliante para el cuero cabelludo con sal marina. No es un shampoo común; está diseñado para limpiar profundamente mientras ayuda a remover la acumulación de grasa, células muertas y residuos de otros productos.\n\n✅ Ayuda a controlar el exceso de grasa.\n✅ Da una sensación de frescura y limpieza duradera.\n✅ Puede aportar más volumen y ligereza al cabello.\n✅ Ayuda a eliminar residuos de sprays, aceites, geles y shampoo seco.\n✅ Deja el cuero cabelludo sintiéndose más fresco y renovado",
-   "localImage": "assets/img/products/shampoo-de-terapia-de-sal-marina-exfoliante-suave-para-pelo-.jpg",
+   "localImage": "assets/img/products/shampoo-de-terapia-de-sal-marina-exfoliante-suave-para-pelo-.webp",
    "featured": false
   },
   {
@@ -533,7 +533,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Un shampo suave y sin sulfatos que ayuda a extender la vitalidad del color mientras hidrata y protege el cabello dañado con derivados de plantas\nAminoácidos y proteínas. Deja el cabello suave y fresco con un algodón\nAroma floral que persiste. Usar de 2 a 3 veces a la semana.\n\nBeneficios:\n• Este champú vegano ayuda a evitar que el color del cabello teñido se desvanezca con su sistema de fijación de color, manteniendo el color vivo todo el tiempo.\n• Limpia suavemente tu cabello y lo mantiene sano",
-   "localImage": "assets/img/products/shampoo-para-pelo-tenido-gardenia-veil-color-shield.jpg",
+   "localImage": "assets/img/products/shampoo-para-pelo-tenido-gardenia-veil-color-shield.webp",
    "featured": false
   },
   {
@@ -545,7 +545,7 @@ window.AERA = {
    "stock": 2,
    "available": true,
    "description": "diseñado para hidratar profundamente, reparar el daño y controlar el frizz, dejando el cabello suave, brillante y manejable",
-   "localImage": "assets/img/products/shampoo-reparador-humedo-sanrio-my-melody-honey-melty.jpg",
+   "localImage": "assets/img/products/shampoo-reparador-humedo-sanrio-my-melody-honey-melty.webp",
    "featured": false
   },
   {
@@ -557,7 +557,7 @@ window.AERA = {
    "stock": 1,
    "available": true,
    "description": "Sirve para pelo muy seco y grueso \nAyuda a hidratar el cabello durante el lavado.\nReduce la sensación de resequedad.\nAyuda a controlar el frizz.\nDeja el cabello más suave y brillante.\nMejora la apariencia del cabello dañado.\nHace que el cabello sea más fácil de peinar",
-   "localImage": "assets/img/products/shampooo-most-repair.jpg",
+   "localImage": "assets/img/products/shampooo-most-repair.webp",
    "featured": false
   },
   {
@@ -569,7 +569,7 @@ window.AERA = {
    "stock": 5,
    "available": true,
    "description": "Un popular producto de belleza coreano diseñado para hidratar, desenredar y revitalizar instantáneamente el cabello seco o dañado.",
-   "localImage": "assets/img/products/spray-para-hidratante-para-el-pelo-con-colageno.jpg",
+   "localImage": "assets/img/products/spray-para-hidratante-para-el-pelo-con-colageno.webp",
    "featured": false
   },
   {
@@ -581,7 +581,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "¿Te cuesta controlar los antojos entre comidas? ❤️ Esta jelly coreana de Foodology está formulada con fibra, chía y Garcinia Cambogia para complementar una rutina de bienestar. ✨ No es una solución mágica para adelgazar, pero puede ayudarte a sentirte más satisfecha y a mantener mejores hábitos durante el día.",
-   "localImage": "assets/img/products/suplemento-alimenticio-en-formato-jelly-gelatina-bebible.jpg",
+   "localImage": "assets/img/products/suplemento-alimenticio-en-formato-jelly-gelatina-bebible.webp",
    "featured": false
   },
   {
@@ -593,7 +593,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "cáscaras de coco orgánicas hechas a mano",
-   "localImage": "assets/img/products/tazon-de-coco-para-hacer-preshampoo.jpg",
+   "localImage": "assets/img/products/tazon-de-coco-para-hacer-preshampoo.webp",
    "featured": false
   },
   {
@@ -605,7 +605,7 @@ window.AERA = {
    "stock": 6,
    "available": true,
    "description": "Tratamiento capilar húmedo profundo 2.0 - aroma a miel de lavanda.\n\n• Tipo de cuidado hidratante.\n\n• Más del 90 % de ingredientes hidratantes y protectores (excluyendo el material base, incluida la agua) que bloquean la humedad en su cabello.\n\n• Experimente una nueva sensación de humedad con un alto contenido de humedad que excede el sentido común.\n\n• Producto de belleza orgánico de retención de agua, que se centra en el cabello que tiene un 14 % de cantidad de agua.\n\n• Más del 90% del producto",
-   "localImage": "assets/img/products/tratamiento-capilar-humedo-profundo-aroma-a-miel-de-lavanda.jpg",
+   "localImage": "assets/img/products/tratamiento-capilar-humedo-profundo-aroma-a-miel-de-lavanda.webp",
    "featured": false
   },
   {
@@ -617,7 +617,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Tu cabello se siente seco, áspero o con mucho frizz? Este tratamiento en crema de fue creado para darle al cabello ese extra de hidratación y suavidad que muchas veces necesita después del calor, los tintes o simplemente el día a día. Ayuda a que el cabello se vea más brillante, se desenrede más fácil y se sienta mucho más suave al tacto.",
-   "localImage": "assets/img/products/tratamiento-en-crema-para-el-cabello.jpg",
+   "localImage": "assets/img/products/tratamiento-en-crema-para-el-cabello.webp",
    "featured": false
   },
   {
@@ -629,7 +629,7 @@ window.AERA = {
    "stock": 4,
    "available": true,
    "description": "Beneficios:\n• Un tratamiento vegano para el cabello que ayuda a evitar que el cabello teñido se atañe, manteniéndolo vivo todo el tiempo.\n• Forma una capa nutritiva y radiante con polvo de diamante y aceite natural para un cabello sano y de vidrio que brilla como una perla.\n• Infundido con aminoácidos derivados de plantas y complejo de proteínas para hidratar y nutrir el cabello dañado por la teñido.\n• Ofrece un agradable aroma floral de gardenia, jazmín, tuberosa y almizcle.",
-   "localImage": "assets/img/products/tratamiento-para-proteger-pelo-tenido.jpg",
+   "localImage": "assets/img/products/tratamiento-para-proteger-pelo-tenido.webp",
    "featured": false
   },
   {
@@ -641,7 +641,7 @@ window.AERA = {
    "stock": 3,
    "available": true,
    "description": "Beneficios:\n• Este tratamiento mineral sin lavado con algas ayuda a reducir las células muertas de la piel y calma el cuero cabelludo.\n\n• Formulado con Seaweed Complex con ingredientes como Sun Oyster-PEP y AIO Marine Plant PDRN que ayudan a aumentar la elasticidad del cuero cabelludo y proporcionan nutrientes al cabello.\n\n• Contiene minerales de algas, antisebo P y biotina que ayudan a aumentar la elasticidad del cuero cabelludo.\n\n• Con lecitina hidrogenada, ceramida NP, 8 tipos de ácido hialur",
-   "localImage": "assets/img/products/tratamiento-sin-enjuague-para-el-pelo-seco.jpg",
+   "localImage": "assets/img/products/tratamiento-sin-enjuague-para-el-pelo-seco.webp",
    "featured": false
   }
  ]

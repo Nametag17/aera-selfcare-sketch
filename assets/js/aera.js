@@ -265,7 +265,7 @@
     if (!a.width) return;
     const ghost = img.cloneNode(); ghost.removeAttribute("id");
     Object.assign(ghost.style, { position: "fixed", left: a.left + "px", top: a.top + "px", width: a.width + "px", height: a.height + "px",
-      objectFit: "contain", zIndex: 80, pointerEvents: "none", mixBlendMode: "multiply", margin: 0 });
+      objectFit: "contain", zIndex: 80, pointerEvents: "none", margin: 0 });
     document.body.appendChild(ghost);
     const dx = b.left + b.width / 2 - (a.left + a.width / 2), dy = b.top + b.height / 2 - (a.top + a.height / 2);
     const lift = ghost.animate([

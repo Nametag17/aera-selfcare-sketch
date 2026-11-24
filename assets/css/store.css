@@ -20,7 +20,7 @@ main { display: block; }
 /* ---------- The shelf ---------- */
 .shelf {
   position: relative; background: var(--shelf); border-radius: var(--r-lg); padding: 0 clamp(10px, 2vw, 22px) clamp(18px, 2.4vw, 26px);
-  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .55), inset 0 -1px 0 rgba(79, 15, 37, .08);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .55), inset 0 -1px 0 rgba(0, 0, 0, .06);
 }
 .shelf + .shelf { margin-top: clamp(28px, 4vw, 44px); }
 .shelf-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; padding: 18px 4px 6px; }
@@ -40,10 +40,10 @@ main { display: block; }
 .stand { position: relative; display: block; aspect-ratio: 1; overflow: hidden; padding: 12px 8% 0; text-decoration: none; background: var(--shelf-back); }
 .facing:first-child .stand { border-top-left-radius: 10px; }
 .facing:last-child .stand { border-top-right-radius: 10px; }
-.stand img { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; mix-blend-mode: multiply; filter: brightness(1.06) contrast(1.04);
+.stand img { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; filter: drop-shadow(0 8px 6px rgba(0, 0, 0, .14)) drop-shadow(0 1px 1px rgba(0, 0, 0, .12));
   transform-origin: 50% 100%; transition: transform 260ms var(--ease-out); }
 @media (hover: hover) and (pointer: fine) { .stand:hover img { transform: translateY(-4px); } }
-.lip { height: 14px; background: linear-gradient(180deg, var(--ledge) 0 60%, var(--ledge-shade)); box-shadow: 0 10px 14px -10px rgba(79, 15, 37, .55); position: relative; z-index: 1; }
+.lip { height: 14px; background: linear-gradient(180deg, var(--ledge) 0 60%, var(--ledge-shade)); box-shadow: 0 10px 14px -10px rgba(0, 0, 0, .4); position: relative; z-index: 1; }
 
 .price-card {
   position: relative; margin: -3px 8px 0; background: var(--paper); border-radius: 0 0 10px 10px; padding: 10px 12px 12px;
@@ -70,7 +70,7 @@ main { display: block; }
 .talker {
   position: absolute; z-index: 2; top: 12px; left: 6px; max-width: 74%; padding: 6px 12px 9px; border-radius: 3px;
   background: var(--candy); color: var(--plum-deep); font-family: var(--f-hand); font-size: clamp(21px, 2vw, 25px); line-height: .95;
-  transform: rotate(-5deg); box-shadow: 0 6px 12px -8px rgba(79, 15, 37, .55); pointer-events: none; text-wrap: balance;
+  transform: rotate(-5deg); box-shadow: 0 6px 12px -8px rgba(0, 0, 0, .4); pointer-events: none; text-wrap: balance;
 }
 .talker::before { content: ""; position: absolute; left: 50%; top: -7px; width: 22px; height: 12px; translate: -50% 0; background: rgba(255, 255, 255, .7); border-radius: 2px; }
 .talker.peach { background: var(--peach); transform: rotate(4deg); left: auto; right: 6px; }
@@ -204,7 +204,7 @@ main { display: block; }
 .receipt .line-edit .stepper button { width: 34px; height: 34px; font-size: 16px; }
 .receipt .line-edit .remove { margin-left: auto; border: 0; background: none; color: var(--plum-soft); font-size: 12.5px; text-decoration: underline; min-height: 34px; padding: 0 4px; }
 .receipt-line.has-thumb { grid-template-columns: 48px minmax(0, 1fr) auto; column-gap: 12px; }
-.receipt-line .thumb { grid-row: 1 / span 2; grid-column: 1; width: 48px; height: 48px; object-fit: contain; mix-blend-mode: multiply; background: var(--shelf-back); border-radius: 6px; }
+.receipt-line .thumb { grid-row: 1 / span 2; grid-column: 1; width: 48px; height: 48px; object-fit: contain; background: var(--shelf-back); border-radius: 6px; }
 .has-thumb .nm, .has-thumb .sub { grid-column: 2; }
 .has-thumb .amt { grid-column: 3; grid-row: 1; }
 .has-thumb .line-edit { grid-column: 2 / -1; }
@@ -292,3 +292,9 @@ main { display: block; }
 @media (min-width: 761px) { #bestsellers .facing:nth-child(n+5) { display: none; } }
 .section.tight-top { padding-top: clamp(28px, 4vw, 44px); }
 .confirm-copy h1 span { display: block; }
+
+/* phones: the confirmation stamp sits under the receipt instead of over the delivery details */
+@media (max-width: 480px) {
+  .confirm .receipt { display: flex; flex-direction: column; }
+  .confirm .stamp { position: relative; inset: auto; order: 99; align-self: center; margin-top: 18px; width: 104px; height: 104px; }
+}
