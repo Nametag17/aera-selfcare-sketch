@@ -46,7 +46,7 @@ body.panel { background: var(--ground); font-size: 15px; }
 .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
 .status.nueva { color: var(--plum); background: #fbe3e8; border-color: #f1c2cc; }
 .status.confirmada { color: #7a4300; background: #fcefdc; border-color: #f0d3a8; }
-.status.pagada { color: #1f4f7a; background: #e5eef7; border-color: #bcd2e8; }
+.status.pagada { color: var(--paper); background: var(--plum); border-color: var(--plum); }
 .status.entregada { color: #2b6143; background: #e2f1e7; border-color: #b9dcc6; }
 .status.cancelada { color: #6e4a55; background: #f1e7ea; border-color: #ddc9cf; }
 .status.cancelada::before { background: none; border: 1.5px solid currentColor; width: 5px; height: 5px; }
@@ -64,8 +64,9 @@ body.panel { background: var(--ground); font-size: 15px; }
 a.stub { border-radius: 8px; transition: background-color 150ms ease; }
 @media (hover: hover) and (pointer: fine) { a.stub:hover { background: #fff5f7; } }
 .btn-sm { min-height: 38px; padding: 0 14px; font-size: 13.5px; }
-.btn-wa { background: #1f7a4a; color: #fff; }
-@media (hover: hover) and (pointer: fine) { .btn-wa:hover { background: #17633c; } }
+.btn-wa { background: var(--paper); color: var(--plum); border-color: var(--line-strong); }
+.btn-wa svg { color: #1f7a4a; }
+@media (hover: hover) and (pointer: fine) { .btn-wa:hover { border-color: var(--plum); background: #fff5f7; } }
 
 /* ---------- Low stock list ---------- */
 .mini-list { list-style: none; margin: 0; padding: 0; }
@@ -111,7 +112,7 @@ table.data tr.is-hidden td:not(:last-child) { opacity: .55; }
 /* ---------- Quote detail ---------- */
 .detail { display: grid; grid-template-columns: minmax(0, 440px) minmax(0, 1fr); gap: clamp(20px, 3vw, 40px); align-items: start; }
 .detail .receipt { max-width: none; }
-.detail .stamp { right: 18px; top: 18px; width: 84px; height: 84px; font-size: 12px; }
+.detail .stamp { right: 14px; top: 14px; width: 108px; height: 108px; font-size: 10.5px; }
 .flow { list-style: none; margin: 0 0 16px; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
 .flow li { text-align: center; font-size: 12.5px; font-weight: 700; color: var(--plum-soft); padding-top: 30px; position: relative; }
 .flow li::before { content: ""; position: absolute; top: 4px; left: 50%; translate: -50% 0; width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--line-strong); background: var(--paper); }
@@ -196,4 +197,6 @@ details.as-table table { margin-top: 6px; }
 .work:focus { outline: none; }
 .link { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; }
 .link svg { width: 16px; height: 16px; }
-.detail .stamp { font-size: 10px; letter-spacing: .03em; }
+
+
+.tabbar a span:not(.badge) { font-size: 10.5px; letter-spacing: -.01em; }

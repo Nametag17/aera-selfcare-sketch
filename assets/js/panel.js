@@ -78,9 +78,9 @@
         <span class="side">${chip(q.status)}</span>
       </a>${withActions ? `<div class="stub-actions">
         <a class="btn btn-wa btn-sm" href="${waReply(q)}" target="_blank" rel="noopener">${A.WA_ICON} Responder</a>
-        ${q.status === "nueva" ? `<button class="btn btn-line btn-sm" type="button" data-advance="${esc(q.ref)}">Confirmar</button>` : ""}
-        ${q.status === "confirmada" ? `<button class="btn btn-line btn-sm" type="button" data-advance="${esc(q.ref)}">Marcar pagada</button>` : ""}
-        ${q.status === "pagada" ? `<button class="btn btn-line btn-sm" type="button" data-advance="${esc(q.ref)}">Marcar entregada</button>` : ""}
+        ${q.status === "nueva" ? `<button class="btn btn-primary btn-sm" type="button" data-advance="${esc(q.ref)}">Confirmar</button>` : ""}
+        ${q.status === "confirmada" ? `<button class="btn btn-primary btn-sm" type="button" data-advance="${esc(q.ref)}">Marcar pagada</button>` : ""}
+        ${q.status === "pagada" ? `<button class="btn btn-primary btn-sm" type="button" data-advance="${esc(q.ref)}">Marcar entregada</button>` : ""}
       </div>` : ""}</li>`;
   }
 
@@ -130,9 +130,9 @@
           <ul class="mini-list">${low.map(p => `
             <li><img src="${p.img}" alt=""><div><div class="nm">${esc(p.name)}</div><div class="sub">${esc(p.brand || A.AISLES.find(a => a.id === p.aisle).name)}</div></div>
               <div class="stepper sm" role="group" aria-label="Stock de ${esc(p.name)}">
-                <button type="button" data-stock="${p.slug}" data-d="-1" ${p.stock <= 0 ? "disabled" : ""} aria-label="Restar uno">−</button>
+                <button type="button" data-stock="${p.slug}" data-d="-1" ${p.stock <= 0 ? "disabled" : ""} aria-label="Restar uno">${icon("minus")}</button>
                 <output class="stock-num ${p.stock === 0 ? "out" : "low"}">${p.stock}</output>
-                <button type="button" data-stock="${p.slug}" data-d="1" aria-label="Sumar uno">+</button>
+                <button type="button" data-stock="${p.slug}" data-d="1" aria-label="Sumar uno">${icon("plus")}</button>
               </div></li>`).join("")}</ul>
         </section>
       </div>`;
@@ -214,9 +214,9 @@
             <td class="c-aisle">${esc(A.AISLES.find(a => a.id === p.aisle).name)}</td>
             <td class="c-price r"><label class="visually-hidden" for="pr-${p.slug}">Precio de ${esc(p.name)}</label><input class="price-input" id="pr-${p.slug}" type="number" min="0" step="0.01" inputmode="decimal" value="${p.price.toFixed(2)}" data-price="${p.slug}"></td>
             <td class="c-stock"><div class="stepper sm" role="group" aria-label="Stock de ${esc(p.name)}">
-              <button type="button" data-stock="${p.slug}" data-d="-1" ${p.stock <= 0 ? "disabled" : ""} aria-label="Restar uno">−</button>
+              <button type="button" data-stock="${p.slug}" data-d="-1" ${p.stock <= 0 ? "disabled" : ""} aria-label="Restar uno">${icon("minus")}</button>
               <output class="stock-num ${p.stock === 0 ? "out" : p.stock <= 2 ? "low" : ""}">${p.stock}</output>
-              <button type="button" data-stock="${p.slug}" data-d="1" aria-label="Sumar uno">+</button></div></td>
+              <button type="button" data-stock="${p.slug}" data-d="1" aria-label="Sumar uno">${icon("plus")}</button></div></td>
             <td class="c-vis"><button class="switch" type="button" role="switch" aria-checked="${!p.hidden}" data-vis="${p.slug}" aria-label="Mostrar ${esc(p.name)} en la tienda"></button></td>
           </tr>`).join("")}</tbody></table></div>`;
   }
@@ -300,7 +300,7 @@
     const n = newCount();
     const item = ([id, label, ic]) => `<a class="nav-item" href="#${id}" ${active === id ? 'aria-current="page"' : ""}>${icon(ic)}<span>${label}</span>${id === "cotizaciones" && n ? `<span class="badge">${n}</span>` : ""}</a>`;
     $("#railNav").innerHTML = NAV.map(item).join("");
-    $("#tabbar").innerHTML = NAV.map(([id, label, ic]) => `<a href="#${id}" ${active === id ? 'aria-current="page"' : ""}>${icon(ic)}<span>${label === "Estadísticas" ? "Datos" : label}</span>${id === "cotizaciones" && n ? `<span class="badge">${n}</span>` : ""}</a>`).join("");
+    $("#tabbar").innerHTML = NAV.map(([id, label, ic]) => `<a href="#${id}" ${active === id ? 'aria-current="page"' : ""}>${icon(ic)}<span>${label}</span>${id === "cotizaciones" && n ? `<span class="badge">${n}</span>` : ""}</a>`).join("");
   }
   function route() {
     const [view, arg] = decodeURIComponent(location.hash.slice(1) || "hoy").split("/");
@@ -308,7 +308,7 @@
       inventario: () => viewInventario(arg || "todo"), clientes: viewClientes, estadisticas: viewEstadisticas };
     work().innerHTML = `<span class="demo-pill">Vista de demostración · datos de ejemplo</span>` + (views[view] || viewHoy)();
     renderNav(view === "cotizacion" ? "cotizaciones" : (views[view] ? view : "hoy"));
-    document.title = `${(NAV.find(n => n[0] === view) || ["", "Panel"])[1]} — Panel Aera Selfcare`;
+    document.title = view === "cotizacion" ? `Cotización ${arg} — Panel Aera Selfcare` : `${(NAV.find(n => n[0] === view) || ["", "Hoy"])[1]} — Panel Aera Selfcare`;
     bindChart();
   }
 

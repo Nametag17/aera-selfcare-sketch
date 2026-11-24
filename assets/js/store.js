@@ -54,7 +54,7 @@
     const featured = cat.filter(p => p.featured);
     $("#bestsellers").innerHTML = shelf({
       title: "Best-sellers", id: "best", gentle: true, link: { href: "tienda.html", label: "Ver toda la tienda" }, items: featured, eager: true,
-      talkers: { 0: { talker: "¿Frizz? Empieza aquí" }, 5: { talker: "Huele a flores", peach: true } },
+      talkers: { 0: { talker: "¿Frizz? Empieza aquí" }, 2: { talker: "Piel suavecita", peach: true } },
     });
     const hair = cat.filter(p => ["brillo", "reparacion", "tenido"].includes(p.aisle) && !p.featured && p.available).slice(0, 5);
     const body = cat.filter(p => ["cuerpo", "sol"].includes(p.aisle) && !p.featured).slice(0, 5);
@@ -151,7 +151,7 @@
           ${p.available ? `
           <div class="buy-row">
             <div class="stepper" role="group" aria-label="Cantidad">
-              <button type="button" data-step="-1" aria-label="Quitar uno">−</button><output id="qty" aria-live="polite">1</output><button type="button" data-step="1" aria-label="Agregar uno">+</button>
+              <button type="button" data-step="-1" aria-label="Quitar uno">${icon("minus")}</button><output id="qty" aria-live="polite">1</output><button type="button" data-step="1" aria-label="Agregar uno">${icon("plus")}</button>
             </div>
             <button class="btn btn-primary" type="button" id="addBtn" data-add="${esc(p.slug)}" data-qty="1">${icon("bag")} Agregar a la bolsa</button>
           </div>` : `<a class="btn btn-line" href="${A.waURL(`Hola Aera 🎀 ¿Cuándo vuelve ${p.name}?`)}" target="_blank" rel="noopener">${A.WA_ICON} Avísame cuando vuelva</a>`}
@@ -192,7 +192,7 @@
             <span class="sub">${qty} × ${money(p.price)}${p.stock <= 2 ? ` · quedan ${p.stock}` : ""}</span>
             <div class="line-edit">
               <div class="stepper" role="group" aria-label="Cantidad de ${esc(p.name)}">
-                <button type="button" data-dec="${p.slug}" aria-label="Quitar uno">−</button><output>${qty}</output><button type="button" data-inc="${p.slug}" ${qty >= p.stock ? "disabled" : ""} aria-label="Agregar uno">+</button>
+                <button type="button" data-dec="${p.slug}" aria-label="Quitar uno">${icon("minus")}</button><output>${qty}</output><button type="button" data-inc="${p.slug}" ${qty >= p.stock ? "disabled" : ""} aria-label="Agregar uno">${icon("plus")}</button>
               </div>
               <button type="button" class="remove" data-rm="${p.slug}">Quitar</button>
             </div>
@@ -266,7 +266,10 @@
       ${c.address ? `<dt>Dirección</dt><dd>${esc(c.address)}</dd>` : ""}
       <dt>Pago</dt><dd>${esc(A.PAYMENT[c.payment] || "—")}</dd>${c.note ? `<dt>Nota</dt><dd>${esc(c.note)}</dd>` : ""}`;
     const first = (c.name || "").split(" ")[0];
-    $("#confirmTitle").textContent = first ? `¡Listo, ${first}! Tu cotización va en camino.` : "¡Listo! Tu cotización va en camino.";
+    const t = $("#confirmTitle"); t.textContent = "";
+    const a = document.createElement("span"); a.textContent = first ? `¡Listo, ${first}!` : "¡Listo!";
+    const b = document.createElement("span"); b.textContent = "Tu cotización va en camino.";
+    t.append(a, b);
     $("#reopenWA").href = A.waURL(A.whatsappMessage(q));
     $("#printBtn").addEventListener("click", () => window.print());
   }
